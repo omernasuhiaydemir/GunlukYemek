@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/beyaz"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/giris_yap"
+        android:textSize="34sp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hos_geldiniz"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textSize="24sp"
+        android:textColor="@color/text_color"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/e_mail_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/e_mail_adresiniz"
+        android:fontFamily="@font/open_sans"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/sifre_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/open_sans"
+
+        android:background="@drawable/border_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/sifreniz"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        />
+
+
+        <Button
+            android:id="@+id/eye_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/eye"
+            android:layout_gravity="right|center"/>
+
+
+      </FrameLayout>
+
+
+
+
+    <Button
+        android:id="@+id/giris_yap_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kirmizi_button"
+        android:text="@string/giris_yap"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAllCaps="false"
+        android:textColor="@color/beyaz"
+        android:textSize="18sp"
+        />
+
+
+    <Button
+        android:id="@+id/forgot_pass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sifremi_unuttum"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"
+        android:layout_gravity="right"
+        android:background="@color/beyaz"
+        android:textSize="16sp"
+        android:elevation="0dp"
+        android:fontFamily="@font/open_sans"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GunlukYemek</string>
+    <string name="giris_yap">Giriş yap</string>
+    <string name="hos_geldiniz">Hoş geldiniz</string>
+    <string name="e_mail_adresiniz">E-mail adresiniz</string>
+    <string name="sifreniz">Şifreniz</string>
+    <string name="sifremi_unuttum">Şifremi unuttum</string>
+    <string name="firma_adi">Firma adı</string>
+    <string name="bayii_kodu">Bayii kodu</string>
+    <string name="sicak_adedi">Sıcak adedi</string>
+    <string name="soguk_adedi">Soğuk adedi</string>
+    <string name="kayitli_veriler">Kayıtlı veriler</string>
+</resources>

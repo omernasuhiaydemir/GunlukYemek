@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "497465268730",
+    "firebase_url": "https://gunlukyemek.firebaseio.com",
+    "project_id": "gunlukyemek",
+    "storage_bucket": "gunlukyemek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497465268730:android:b0aa532807d993646cac43",
+        "android_client_info": {
+          "package_name": "com.omernsh.gunlukyemek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497465268730-mvp420ci0u7so634o2jmg09bia4c782f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omernsh.gunlukyemek",
+            "certificate_hash": "7cb3516bf2b9c18d6d2676472ef1086061c01047"
+          }
+        },
+        {
+          "client_id": "497465268730-f1vampro389mgh96f1o90beb2mhkf3ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf5PdvAm_1FTSFAIpuGO8HKQGJk82zwKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497465268730-f1vampro389mgh96f1o90beb2mhkf3ie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

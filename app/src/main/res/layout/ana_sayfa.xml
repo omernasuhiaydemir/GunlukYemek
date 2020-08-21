@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/text_color"
+            android:text="@string/firma_adi"/>
+
+
+        <Button
+            android:id="@+id/log_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Çıkış yap"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:background="@drawable/kirmizi_button"
+            android:textColor="@color/beyaz"
+            android:layout_gravity="center|left"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/e_mail_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/open_sans_bold"
+        android:textColor="@color/text_color"
+        android:layout_marginLeft="20dp"
+        android:text="Kullanıcı e-mail"/>
+
+
+    <TextView
+        android:id="@+id/tarih_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:fontFamily="@font/open_sans"
+        android:textColor="@color/text_color"
+        android:layout_marginLeft="20dp"
+        android:text="02/08/2020"/>
+
+
+    <EditText
+        android:id="@+id/bayii_kodu_editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/bayii_kodu"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        />
+
+
+    <EditText
+        android:id="@+id/sıcak_editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/sicak_adedi"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:fontFamily="@font/open_sans"
+
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        />
+
+
+    <EditText
+        android:id="@+id/soguk_editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/soguk_adedi"
+        android:fontFamily="@font/open_sans"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        />
+
+
+
+    <Button
+        android:id="@+id/kaydet_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kirmizi_button"
+        android:text="Kaydet"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAllCaps="false"
+        android:textColor="@color/beyaz"
+        android:textSize="18sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/kayıtlı_veriler"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:background="@drawable/mavi_button"
+        android:text="@string/kayitli_veriler"
+        android:textAllCaps="false"
+        android:textColor="@color/beyaz"
+        android:textSize="18sp"
+        />
+
+
+
+</LinearLayout>

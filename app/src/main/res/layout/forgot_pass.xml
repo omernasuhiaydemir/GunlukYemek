@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/beyaz"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifremi unuttum"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textSize="24sp"
+        android:textColor="@color/text_color"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre sıfırlama bağlantısı almak için lütfen sisteme kayıtlı mail adresinizi girin."
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/e_mail_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/e_mail_adresiniz"
+        android:fontFamily="@font/open_sans"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/tamam_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kirmizi_button"
+        android:text="Tamam"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAllCaps="false"
+        android:textColor="@color/beyaz"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
